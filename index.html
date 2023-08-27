@@ -1,0 +1,100 @@
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+    <head>
+        <title>
+            system of music
+        </title>
+
+        <style>
+            .row{
+                width:720px;
+                margin: 10px auto 10px auto ;
+            }
+            .image-container {
+                display: table-cell;
+                vertical-align: middle;
+                padding:20px;
+            }
+        
+    </style>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+
+    
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_SharedWithUsers msdt:dt="string">Neroli Wesley;Jumi Suzuki Carpenter;Nguyen Nguyen;Ella Ferraretto;Kelly Ga Yi Xiao;C Lee;Phuong Nguyen;Ka Chen Yeo;Michelle Arlene Tan;Pauline Natasha Latidjan;Evelyn Tjiang</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_SharedWithUsers>
+<mso:SharedWithUsers msdt:dt="string">11;#Neroli Wesley;#16;#Jumi Suzuki Carpenter;#27;#Nguyen Nguyen;#17;#Ella Ferraretto;#15;#Kelly Ga Yi Xiao;#28;#C Lee;#14;#Phuong Nguyen;#13;#Ka Chen Yeo;#26;#Michelle Arlene Tan;#12;#Pauline Natasha Latidjan;#18;#Evelyn Tjiang</mso:SharedWithUsers>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+    
+    <body style="background-color: rgb(78, 11, 122);">
+        
+        <div class="row">
+            <!-- This is a comment. It won't appear in your page -->
+            <!-- This long line contains the code for the image roll 
+                over which swaps in an alternative image. You need to select the extra 
+                code and paste it in for each image. Make sure the page still works after pasting. 
+                Replace the template file names with your own filenames for icons, 
+                the rollover version of icons and sounds.d
+            -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+            <div class="image-container"><img id="donut1" src="img/trumpet up.png" onmouseover="this.src='img/trumpet down.png';" onmouseout="this.src='img/trumpet up.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="donut2" src="img/electric 1.png" onmouseover="this.src='img/electric 2.png';" onmouseout="this.src='img/electric 1.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="donut3" src="img/sax1.png" onmouseover="this.src='img/sax2.png';" onmouseout="this.src='img/sax1.png';" width="200" height="200"/></div>
+        </div>
+
+        <div class="row">
+            <div class="image-container"><img id="donut4" src="img/drum1.png" onmouseover="this.src='img/drum2.png';" onmouseout="this.src='img/drum1.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="donut5" src="img/piano not pressedd.png" onmouseover="this.src='img/piano pressed.png';" onmouseout="this.src='img/piano not pressedd.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="donut6" src="img/accordion open.png" onmouseover="this.src='img/accordion closed.png';" onmouseout="this.src='img/accordion open.png';" width="200" height="200"/></div>
+        </div>
+
+        <div class="row">
+            <div class="image-container"><img id="donut7" src="img/violin1.png" onmouseover="this.src='img/violin2.png';" onmouseout="this.src='img/violin1.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="donut8" src="img/acoustic 1.png" onmouseover="this.src='img/acoustic 2.png';" onmouseout="this.src='img/acoustic 1.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="donut9" src="img/trom 1.png" onmouseover="this.src='img/trom2.png';" onmouseout="this.src='img/trom 1.png';" width="200" height="200"/></div>
+        </div>
+
+        <script>
+            var sound1 = new buzz.sound("sound/trumpet1.wav");
+            var sound2 = new buzz.sound("sound/electricguitar1.wav");
+            var sound3 = new buzz.sound("sound/sax1.wav");
+            var sound4 = new buzz.sound("sound/drum1.wav");
+            var sound5 = new buzz.sound("sound/piano1.wav");
+            var sound6 = new buzz.sound("sound/accordion1.wav");
+            var sound7 = new buzz.sound("sound/violin1.wav");
+            var sound8 = new buzz.sound("sound/acousticguitar1.wav");
+            var sound9 = new buzz.sound("sound/trombone1.wav");
+
+            window.onload = function() {
+                document.getElementById('donut1').addEventListener('click', function () {sound1.play();});
+                document.getElementById('donut2').addEventListener('click', function () {sound2.play();});
+                document.getElementById('donut3').addEventListener('click', function () {sound3.play();});
+                document.getElementById('donut4').addEventListener('click', function () {sound4.play();});
+                document.getElementById('donut5').addEventListener('click', function () {sound5.play();});
+                document.getElementById('donut6').addEventListener('click', function () {sound6.play();}); 
+                document.getElementById('donut7').addEventListener('click', function () {sound7.play();});
+                document.getElementById('donut8').addEventListener('click', function () {sound8.play();});
+                document.getElementById('donut9').addEventListener('click', function () {sound9.play();});
+            };
+        </script>
+
+    </body>
+
+</html>
+
